@@ -13,3 +13,4 @@ class TestClass:
         assert is_even(3) == False
         assert is_even(-1) == False
         assert is_even(0) == True
+        assert is_even(-10) == True
